@@ -1,0 +1,39 @@
+#submit{
+    height:20px;
+    width:200px;
+    padding:20px 10px;
+    border-radius: 50px;
+    border-style:groove;
+    border-color:rgb(46, 243, 243);
+    color: rgb(40, 211, 211);
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height:5px;
+    
+}
+
+#plus {
+    border-radius: 50%;
+    border-style: none;
+    height:75px;
+    width:75px;
+    font-size: 5vh;
+    background-color:rgb(136, 241, 227);
+    color:white;
+}
+
+#account{
+    height:50px;
+    width:300px;
+    background-color: blue;
+    color: white;
+    font-size: 2vh;
+    border-color: black;
+    border-width: 3px;
+    box-shadow: 5px 5px black;
+}
+
+*{
+    margin-left:50px;
+    margin-top:50px;
+}
