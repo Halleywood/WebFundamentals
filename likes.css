@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    border:solid 8px rgb(0, 0, 0);
+    height:400px;
+    width:800px;
+    display:flex;
+    display:block;
+    margin:0 auto;
+}
+.row{
+    background-color: rgb(255, 255, 255);
+    height:min-content;
+    text-align:left;
+    flex:1;
+    margin:10px;
+   
+}
+.row1{
+    display:flex;
+    margin-top:50px;
+    justify-content:space-around;
+}
+#counter{
+    font-size: 40px;
+    width:200px;
+    font-family: fantasy;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+#button{
+    height:60px;
+    width:200px;
+    font-size: 40px;
+    font-family: fantasy;
+    background-color:orange;
+    box-shadow: 0px 10px 10px black;
+    margin:20px;
+}
+p {
+    font-size: 40px;
+    font-family: fantasy;
+    margin:20px;
+}
