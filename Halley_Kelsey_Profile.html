@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="halley_Kelsey_Profile.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbarcontainer">
+    <div id="navbar">
+        <ul class="list">
+            <li id="profile">Profile </li>
+            <li><a href="www.home.com">Home</a></li>
+            <li id="myprofile"><a href="www.facebook.com"><b>My Profile</b></a></li>
+            <li><a href="www.match.com">Find Connections</a></li>
+        </ul>
+        <input id="button" type="button" value="Sign Out">
+    </div>
+    </div>
+    <div class="mainpage">
+        <div class="column-1">
+            <div id="card">
+                <div id="cardheader"></div>
+                <img id="cardpicture" src="user-circle.png" alt="profilepic">
+                <div class="cardtext-box">
+                    <h1 id="name">Jane Doe</h1>
+                    <p><img id="cardmarker" src="map-marker.png" alt="map marker">Seattle</p>
+                    <h3> Developer | Engineer | Problem Solver<br>Master of shadows and the Internet!</h3>
+                    <img id="cardgear" src="gear.png" alt="gear icon">
+                    <a onClick="nameChange()" id="cardedit" href="#">edit profile</a>
+                </div>
+                </div>
+            <div id="spacer"></div>
+            <div id="educationcontainer">
+                <div class="educationheader">
+                    <h2>Education</h2>
+                </div>
+                <div class="education-row1">
+                    <h2>Coding Dojo-Full Stack Bootcamp</h2>
+                    <br>
+                    <p>Dec 2019-Mar 2020</p>
+                    <br>
+                    <h4>Triple black belt in Python, MERN, and C#</h4>
+                </div>
+            </div>
+        </div>
+        <div class="column-2">
+            <div class="connectionrequests">
+                <div class="connectionheader">
+                    <button id="countdown" type="button" class="connectionnotification">2</button>
+                    <p>Connection Requests</p>
+                </div>
+                <div id="connectionrow2">
+                    <div class="connectionicons">
+                        <img class="connectionprofile" src="user-circle.png" alt="profile">
+                        <p>Todd E</p>
+                    </div>
+                    <div class="connectionicons">
+                        <img class="check" onClick="dissappear(0)" src="accept-circle.png" alt="check">
+                        <img class="check" onClick="dissappear(0)" src="close-circle.png" alt="x">
+                    </div>
+                    </div> 
+                    <div id="connectionrow3">
+                    <div class="connectionicons">
+                        <img class="connectionprofile" src="user-circle.png" alt="profile">
+                        <p>Phil K</p>
+                    </div>
+                    <div class="connectionicons">
+                        <img class="check" onClick="dissappear(1)"src="accept-circle.png" alt="check">
+                        <img class="check" onClick="dissappear(1)"src="close-circle.png" alt="x">
+                    </div>   
+                </div>
+            </div>
+            <div id="spacer"></div>
+            <div id="friendscontainer">
+                <div class="friendsheader">
+                    <button class="friendsbutton"> 500+ </button>
+                    <h2>Your Connections</h2>
+                </div>
+                <div class="friendsrow">
+                    <img class="connectionprofile" src="user-circle.png" alt="profile">
+                    <p>Adren D</p>
+                </div>
+                <div class="friendsrow">
+                    <img class="connectionprofile" src="user-circle.png" alt="profile">
+                    <p>Anne J</p>
+                </div>
+                <div class="friendsrow">
+                    <img class="connectionprofile" src="user-circle.png" alt="profile">
+                    <p>Alayne T</p>
+                </div>
+                <div class="friendsrow">
+                    <img class="connectionprofile" src="user-circle.png" alt="profile">
+                    <p>Arry Y</p>
+                </div>
+                <div class="friendsfooter">
+                    <a id="friends footer" href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Halley_Kelsey_namechange.js"></script>
+</body>
+</html>
